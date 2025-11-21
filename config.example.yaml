@@ -1,0 +1,53 @@
+# Example configuration file for bAUTO
+
+# AI Model Configuration
+model:
+  provider: gemini  # gemini or openai
+  model_name: models/gemini-2.0-flash  # Stable Gemini 2.0 Flash
+  temperature: 0.0
+  max_tokens: 2048
+  # api_key: set via GOOGLE_API_KEY or OPENAI_API_KEY env var
+  
+  # Other available models (note: use models/ prefix):
+  # - models/gemini-2.0-flash (recommended - stable, good limits)
+  # - models/gemini-2.5-flash (latest, may have quota limits)
+  # - models/gemini-2.0-flash-exp (experimental version)
+  # - models/gemini-flash-latest (always points to latest flash)
+
+# Browser Configuration
+browser:
+  headless: false
+  disable_gpu: true
+  no_sandbox: true
+  window_size: [1920, 1080]
+  # user_agent: "Custom User Agent"
+  # proxy: "http://proxy.example.com:8080"
+  profile_dir: browser_profile
+  auto_download_driver: true
+  
+  # Anti-detection settings
+  stealth_mode: true
+  disable_automation_flags: true
+
+# Automation Behavior
+automation:
+  retry_attempts: 3
+  action_delay: 0.5  # seconds between actions
+  implicit_wait: 10.0  # seconds
+  page_load_timeout: 30.0  # seconds
+  
+  # Memory system (requires optional dependencies)
+  enable_memory: false
+  memory_dir: automation_memory
+  
+  # Error handling
+  screenshot_on_error: true
+  error_screenshot_dir: error_screenshots
+  
+  # Logging
+  enable_logging: true
+  log_level: INFO  # DEBUG, INFO, WARNING, ERROR
+  
+  # Performance
+  cache_prompts: true
+

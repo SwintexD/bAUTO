@@ -1,0 +1,36 @@
+"""
+Social media automation example with functions
+"""
+
+instructions: |
+  # Define reusable function for login
+  DEFINE_FUNCTION login_to_site
+  Find the username field
+  Type "demo_user" into the username field
+  Find the password field
+  Type "demo_password" into the password field
+  Click the login button
+  Wait 3 seconds
+  END_FUNCTION
+  
+  # Navigate to site
+  Go to https://example-social-media.com
+  
+  # Login using defined function
+  CALL login_to_site
+  
+  # Create a post
+  Find the "Create Post" button and click it
+  Find the post text area
+  Type "This is an automated post from bAUTO!" into the text area
+  
+  # Add hashtags
+  Type " #automation #AI #bAUTO" into the text area
+  
+  # Submit post
+  Find the "Publish" button and click it
+  Wait 2 seconds
+  
+  # Take screenshot
+  Take a screenshot named "post_created.png"
+

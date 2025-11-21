@@ -1,0 +1,24 @@
+"""
+Better Wikipedia Example with Proper Waits
+"""
+
+instructions: |
+  # Navigate to Wikipedia
+  Navigate to https://en.wikipedia.org
+  Wait 3 seconds for the page to fully load
+  
+  # Search for Artificial Intelligence
+  Find the search input box
+  Type "Artificial Intelligence" in the search box
+  Press Enter or click the search button
+  
+  # Wait for article to load completely
+  Wait 5 seconds for the article to fully load
+  
+  # Scroll to see more content
+  Scroll down 300 pixels
+  Wait 1 second
+  
+  # Take the screenshot
+  Take a screenshot and save it as "wikipedia_ai_fixed.png"
+

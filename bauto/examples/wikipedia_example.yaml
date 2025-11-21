@@ -1,0 +1,24 @@
+"""
+Example instruction file for bAUTO
+==================================
+
+This demonstrates how to write instructions for browser automation.
+"""
+
+instructions: |
+  # Navigate to Wikipedia
+  Go to https://en.wikipedia.org
+  
+  # Search for a topic
+  Find the search box and type "Artificial Intelligence"
+  Click the search button
+  
+  # Wait for page load
+  Wait 2 seconds
+  
+  # Get the first paragraph
+  Find the first paragraph of the article
+  
+  # Take a screenshot
+  Take a screenshot and save it as "ai_article.png"
+

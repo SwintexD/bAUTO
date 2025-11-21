@@ -1,0 +1,19 @@
+include README.md
+include LICENSE
+include requirements.txt
+include requirements-dev.txt
+include pyproject.toml
+
+recursive-include bauto/examples *.yaml
+recursive-include bauto *.py
+
+exclude .gitignore
+exclude .pre-commit-config.yaml
+recursive-exclude tests *
+recursive-exclude docs *
+recursive-exclude browser_profile *
+recursive-exclude bauto_browser_profile *
+recursive-exclude error_screenshots *
+recursive-exclude * __pycache__
+recursive-exclude * *.py[co]
+recursive-exclude * .DS_Store

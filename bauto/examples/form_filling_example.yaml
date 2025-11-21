@@ -1,0 +1,28 @@
+"""
+Simple form filling example
+"""
+
+instructions: |
+  # Navigate to a demo form
+  Go to https://www.example-form.com
+  
+  # Fill in personal information
+  Find the "First Name" field and type "John"
+  Find the "Last Name" field and type "Doe"
+  Find the "Email" field and type "john.doe@example.com"
+  
+  # Select from dropdown
+  Find the country dropdown and select "United States"
+  
+  # Check a checkbox
+  Find the "I agree to terms" checkbox and check it
+  
+  # Submit form
+  Find the Submit button and click it
+  
+  # Wait for confirmation
+  Wait 3 seconds
+  
+  # Take screenshot of result
+  Take a screenshot named "form_submitted.png"
+

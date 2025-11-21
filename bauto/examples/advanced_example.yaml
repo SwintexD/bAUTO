@@ -1,0 +1,44 @@
+"""
+Advanced example with functions and complex workflows
+"""
+
+instructions: |
+  # ========================================
+  # GitHub Repository Explorer
+  # ========================================
+  
+  # Define reusable search function
+  DEFINE_FUNCTION search_github
+  Find the search box on GitHub
+  Type "browser automation python" into the search box
+  Press Enter or click search button
+  Wait 2 seconds for results to load
+  END_FUNCTION
+  
+  # Define function to view repository details
+  DEFINE_FUNCTION view_first_repo
+  Find the first repository result in the list
+  Click on the first repository link
+  Wait 3 seconds for the page to load
+  Scroll down 500 pixels
+  END_FUNCTION
+  
+  # Main workflow
+  Navigate to https://github.com
+  
+  # Execute search
+  CALL search_github
+  
+  # View repository
+  CALL view_first_repo
+  
+  # Capture information
+  Take a screenshot and save as "github_repo.png"
+  
+  # Check if README is visible
+  Scroll to the bottom of the page
+  Wait 1 second
+  
+  # Take final screenshot
+  Take a screenshot and save as "github_readme.png"
+

@@ -1,0 +1,24 @@
+"""
+Shopping automation example
+"""
+
+instructions: |
+  # Amazon product search
+  Navigate to https://www.amazon.com
+  
+  # Search for product
+  Find the search bar
+  Type "wireless headphones" in the search bar
+  Press Enter
+  
+  # Filter results
+  Wait for results to load
+  Find the "Prime" filter checkbox and click it
+  
+  # View product details
+  Click on the first product in the results
+  Wait 2 seconds
+  
+  # Take screenshot of product page
+  Take a screenshot named "product_page.png"
+
