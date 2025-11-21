@@ -1,28 +1,29 @@
-# bAUTO
+# 🐳bAUTO🐬
 
 **Browser Automation with AI** - Transform natural language instructions into browser actions seamlessly.
 
-[![Tests](https://github.com/SwintexD/bAUTO/workflows/Tests/badge.svg)](https://github.com/SwintexD/bAUTO/actions)
+
 [![Python Version](https://img.shields.io/badge/python-3.8%2B-blue)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
 ---
+<img src="https://github.com/user-attachments/assets/07830728-9d1e-4fcb-b327-410c777925f5" alt="developer illustration" width="512px" align="center"/>
 
-## ✨ Features
+For better quality media(open image for see video): https://i.imgur.com/hf9XgAi.mp4
+## 🌀 Features
 
-- 🤖 **AI-Powered**: Uses Google Gemini or OpenAI to understand natural language instructions
-- 🎯 **Simple Syntax**: Write automation in plain English
-- 🔄 **Smart Retry**: Automatic retry with error context for robust execution
+- 🐝 **AI-Powered**: Uses Google Gemini or OpenAI to understand natural language instructions
+- 🐝 **Simple Syntax**: Write automation in plain English
+- 🐝 **Smart Retry**: Automatic retry with error context for robust execution
 - 📦 **Function System**: Define and reuse instruction blocks
-- 🎨 **Clean API**: Both CLI and Python API available
-- 🛡️ **Stealth Mode**: Advanced anti-detection for realistic browsing
-- 📸 **Error Screenshots**: Automatic screenshots on failure
-- ⚡ **Caching**: Smart prompt caching for faster execution
+- 🐝 **Clean API**: Both CLI and Python API available
+- 🐝 **Stealth Mode**: Advanced anti-detection for realistic browsing
+- 🐝 **Error Screenshots**: Automatic screenshots on failure
+- 👉 **Caching**: Smart prompt caching for faster execution
 
 ---
 
-## 🚀 Quick Start
+## 🚤 Quick Start
 
 ### Installation
 
@@ -164,7 +165,7 @@ quick_start.py         # Quick demo script
 
 ---
 
-## 🎯 Examples
+## ✅ Examples
 
 Check out the `bauto/examples/` directory for complete examples:
 
@@ -310,18 +311,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-## 🗺️ Roadmap
-
-- [ ] Add OpenAI provider support
-- [ ] Implement memory/context system
-- [ ] Add more browser support (Firefox, Safari)
-- [ ] Create web UI dashboard
-- [ ] Add CI/CD examples
-- [ ] Implement async operations
-- [ ] Add more examples and tutorials
-
----
-
 ## 💬 Community
 
 - [Discussions](https://github.com/SwintexD/bAUTO/discussions) - Ask questions, share ideas
@@ -339,3 +328,4 @@ If you find this project useful, please consider giving it a star! ⭐
 **Made with ❤️ by the bAUTO community**
 
 **Version:** 1.0.0 | **Python:** 3.8+  | **License:** MIT
+
